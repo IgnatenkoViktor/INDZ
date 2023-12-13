@@ -1,0 +1,15 @@
+div.user-form-container {
+    margin-top: 10px;
+  }
+  
+  div.input-group {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  div.saved-users {
+    margin-top: 10px;
+  }
+  .saved-users-group p {
+    padding: 0 0 0 10px;
+  }

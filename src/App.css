@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0e0e0;
+  }
+  
+  .user-form-container {
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    font-weight: 700;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: #ffffff;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.25);
+  }
+  .input_name {
+    width: 150px;
+  }
+  .input_age{
+    width: 40px;
+  }
+  
+  button {
+    font-family: 'Roboto';
+    font-style: normal;
+    padding: 7px 40px;
+    background: #98D767;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.25);
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .saved-users {
+    margin-top: 10px;
+    
+  }
+  .saved-users-group {
+    display: grid;
+    grid-template-columns: 150px 1fr 50px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+  }
+  .line{
+    border-right: 1px solid black;
+  }
+
+  
